@@ -18,4 +18,15 @@ $(document).ready(function () {
         speed: 1000,
     });
 
+    /* STICKY NAV */
+    $('.js--section-operations').waypoint(function (direction) {
+        if (direction == "down") {
+            $('nav').addClass('sticky-nav');
+        } else {
+            $('nav').removeClass('sticky-nav');
+        }
+    }, {
+        offset: '60px'
+    });
+
 });
