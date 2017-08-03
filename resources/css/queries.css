@@ -17,7 +17,7 @@
     }
     .long-copy {
         width: 90%;
-        margin-left: 5%
+        margin-left: 5%;
     }
     .background-main {
         height: 80vh;
@@ -29,7 +29,7 @@
         font-size: 190%;
         margin-bottom: 20px;
     }
-    .foot-nav {
+    .footer-nav {
         font-size: 100%;
     }
     .social-nav {
@@ -102,7 +102,7 @@
     .span-1-of-2 {
         width: 49%;
     }
-    .foot-nav li,
+    .footer-nav li,
     .social-nav li {
         margin: 15px 20px 15px 0;
     }
@@ -134,7 +134,7 @@
     .social-nav {
         font-size: 85%;
     }
-    .foot-nav li,
+    .footer-nav li,
     .social-nav li {
         margin: 5px 15px 5px 0;
     }
