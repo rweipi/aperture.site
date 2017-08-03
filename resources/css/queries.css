@@ -19,42 +19,40 @@
         width: 90%;
         margin-left: 5%
     }
-    .background-main{
+    .background-main {
         height: 80vh;
     }
-    h1{
+    h1 {
         font-size: 200%;
     }
-    h2{
+    h2 {
         font-size: 190%;
         margin-bottom: 20px;
     }
-
-    .foot-nav{
+    .foot-nav {
         font-size: 100%;
     }
-    .social-nav{
+    .social-nav {
         font-size: 100%;
     }
-
 }
 
 @media only screen and (max-width: 768px) {
-    .col{
+    .col {
         margin: 0 0 4% 0;
         width: 100%;
     }
-    h1{
+    h1 {
         font-size: 190%;
     }
-    h2{
+    h2 {
         font-size: 180%;
         margin-bottom: 15px;
     }
-    h3{
+    h3 {
         text-align: center;
     }
-    .logo{
+    .logo {
         height: 40px;
         margin-top: 25px;
     }
@@ -62,10 +60,10 @@
         display: none;
     }
     /* add sticky nav */
-    .section-products{
+    .section-products {
         height: 140vh;
     }
-    .products-showcase{
+    .products-showcase {
         list-style: none;
         width: 100%;
     }
@@ -74,72 +72,70 @@
         float: left;
         width: 25%;
     }
-    .products-showcase{
+    .products-showcase {
         width: 75%;
         margin-left: 15%;
     }
     .products-showcase li {
         width: 50%;
     }
-    .section-plans{
+    .section-plans {
         height: 220vh;
     }
-    .section-plans .long-copy{
+    .section-plans .long-copy {
         width: 60%;
         margin-left: 20%;
         margin-bottom: 20px;
     }
-    .plan-box{
+    .plan-box {
         width: 70%;
         margin: 15%;
     }
-    .plan-box ul li{
-        list-style:  none;
+    .plan-box ul li {
+        list-style: none;
         padding: 10px;
         font-size: 100%;
     }
-
     .plan-price {
         text-align: center;
     }
-    .span-1-of-2{
+    .span-1-of-2 {
         width: 49%;
     }
     .foot-nav li,
-    .social-nav li{
+    .social-nav li {
         margin: 15px 20px 15px 0;
     }
 }
 
 @media only screen and (max-width: 480px) {
-    h1{
+    h1 {
         font-size: 160%;
     }
-    h2{
+    h2 {
         font-size: 150%;
         margin-bottom: 10px;
     }
-    .long-copy{
+    .long-copy {
         font-size: 100%;
     }
-    .box p{
+    .box p {
         font-size: 85%;
     }
-    .section-products{
+    .section-products {
         height: 95vh;
     }
-    .section-plans{
+    .section-plans {
         height: 225vh;
     }
-    .footer-nav{
+    .footer-nav {
         font-size: 65%;
     }
-    .social-nav{
+    .social-nav {
         font-size: 85%;
     }
     .foot-nav li,
-    .social-nav li{
+    .social-nav li {
         margin: 5px 15px 5px 0;
     }
-
 }
