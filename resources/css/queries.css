@@ -30,7 +30,7 @@
         margin-bottom: 20px;
     }
     .footer-nav {
-        font-size: 100%;
+        font-size: 80%;
     }
     .social-nav {
         font-size: 100%;
@@ -89,11 +89,11 @@
     }
     .plan-box {
         width: 70%;
-        margin: 15%;
+        margin-left: 15%;
     }
     .plan-box ul li {
         list-style: none;
-        padding: 10px;
+        padding: 10px 30px;
         font-size: 100%;
     }
     .plan-price {
