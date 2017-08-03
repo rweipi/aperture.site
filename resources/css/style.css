@@ -288,6 +288,22 @@ section {
 }
 
 
+/* MOBILE NAV */
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    padding: 8px 8px 0 0;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
+
 /* ---------------------------------- */
 
 
