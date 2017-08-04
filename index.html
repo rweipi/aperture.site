@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/youtube-pop-up.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/jquery.bxslider.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
@@ -38,10 +39,10 @@
                 <a class="autoplay" href="https://www.youtube.com/watch?v=36reZ9-3VK0"><img src="resources/img/logo-black.png" alt="logo-black" class="logo-black"></a>
 
                 <ul class="main-nav js--main-nav">
-                    <li><a href="#">operations</a></li>
-                    <li><a href="#">products</a></li>
-                    <li><a href="#">our labs</a></li>
-                    <li><a href="#">sign up</a></li>
+                    <li><a href="#operations">operations</a></li>
+                    <li><a href="#products">products</a></li>
+                    <li><a href="#labs">our labs</a></li>
+                    <li><a href="#sign">sign up</a></li>
                 </ul>
 
                 <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
@@ -51,13 +52,13 @@
 
         <div class="hero-text-box">
             <h1>Aperture Labs. You can trust us.<br>We have cake.</h1>
-            <a class="btn btn-full" href="#">I want cake</a>
-            <a class="btn btn-ghost" href="#">Tell me more</a>
+            <a class="btn btn-full js--scroll-to-plans" href="#">I want cake</a>
+            <a class="btn btn-ghost js--scroll-to-operations" href="#">Tell me more</a>
         </div>
 
     </header>
 
-    <section class="operations-features js--section-operations">
+    <section class="operations-features js--section-operations" id="operations">
 
         <div class="row">
             <h2>Our Operations</h2>
@@ -66,7 +67,7 @@
             </p>
         </div>
 
-        <div class="row">
+        <div class="row js--wp-1">
             <div class="col span-1-of-4 box">
                 <i class="material-icons icon-big">center_focus_strong</i>
                 <h3>up to 365 days/year</h3>
@@ -91,55 +92,57 @@
 
     </section>
 
-    <section class="section-products background-main">
+    <section class="section-products background-main" id="products">
+        <div class="row">
+            <h2>Our Products</h2>
+        </div>
+        <div class="row js--wp-2">
+            <ul class="products-showcase clear-fix">
+                <li>
+                    <figure class="products">
+                        <img src="resources/img/1.jpg" alt="jacket">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="products">
+                        <img src="resources/img/2.jpg" alt="boot">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="products">
+                        <img src="resources/img/3.jpg" alt="cake">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="products">
+                        <img src="resources/img/4.jpg" alt="gun">
+                    </figure>
+                </li>
+            </ul>
 
-        <h2>Our Products</h2>
-        <ul class="products-showcase clear-fix">
-            <li>
-                <figure class="products">
-                    <img src="resources/img/1.jpg" alt="jacket">
-                </figure>
-            </li>
-            <li>
-                <figure class="products">
-                    <img src="resources/img/2.jpg" alt="boot">
-                </figure>
-            </li>
-            <li>
-                <figure class="products">
-                    <img src="resources/img/3.jpg" alt="cake">
-                </figure>
-            </li>
-            <li>
-                <figure class="products">
-                    <img src="resources/img/4.jpg" alt="gun">
-                </figure>
-            </li>
-        </ul>
-
-        <ul class="products-showcase clear-fix">
-            <li>
-                <figure class="products">
-                    <img src="resources/img/5.jpg" alt="cube">
-                </figure>
-            </li>
-            <li>
-                <figure class="products">
-                    <img src="resources/img/6.jpg" alt="turret">
-                </figure>
-            </li>
-            <li>
-                <figure class="products">
-                    <img src="resources/img/7.jpg" alt="monitor">
-                </figure>
-            </li>
-            <li>
-                <figure class="products">
-                    <img src="resources/img/8.jpg" alt="wheatley">
-                </figure>
-            </li>
-        </ul>
-
+            <ul class="products-showcase clear-fix">
+                <li>
+                    <figure class="products">
+                        <img src="resources/img/5.jpg" alt="cube">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="products">
+                        <img src="resources/img/6.jpg" alt="turret">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="products">
+                        <img src="resources/img/7.jpg" alt="monitor">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="products">
+                        <img src="resources/img/8.jpg" alt="wheatley">
+                    </figure>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <section class="section-labs" id="labs">
@@ -158,7 +161,7 @@
 
     </section>
 
-    <section class="section-plans background-main">
+    <section class="section-plans background-main" id="sign">
         <div class="row">
             <h2>Sign up</h2>
             <p class="long-copy">
@@ -166,7 +169,7 @@
             </p>
         </div>
 
-        <div class="row">
+        <div class="row js--wp-4">
             <div class="col span-1-of-3">
                 <div class="plan-box">
                     <div>
